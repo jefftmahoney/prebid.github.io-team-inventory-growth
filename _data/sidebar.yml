@@ -122,6 +122,13 @@
   isSectionHeader: 0
   subgroup: 2
 
+- sbSecId: 0
+  title: Prebid and MSPA
+  link: /features/mspa-usnat.html
+  isHeader: 0
+  isSectionHeader: 0
+  subgroup: 2
+
 
 #--------------Prebid.js--------------|
 
@@ -136,7 +143,7 @@
   sbCollapseId: prebidjs
 
 - sbSecId: 1
-  title: Developer Quick Start
+  title: General
   link:
   isHeader: 1
   headerId: devquickstart
@@ -156,6 +163,22 @@
 - sbSecId: 1
   title: Getting Started for Developers
   link: /dev-docs/getting-started.html
+  isHeader: 0
+  isSectionHeader: 0
+  sectionTitle:
+  subgroup: 0
+
+- sbSecId: 1
+  title: Basic Impression Flow
+  link: /prebid/prebidjs-flow-video.html
+  isHeader: 0
+  isSectionHeader: 0
+  sectionTitle:
+  subgroup: 0
+
+- sbSecId: 1
+  title: Prebid.js Components
+  link: /prebid/prebidjs-components-video.html
   isHeader: 0
   isSectionHeader: 0
   sectionTitle:
@@ -360,8 +383,8 @@
   subgroup: 3
 
 - sbSecId: 1
-  title: Prebid.js Releases
-  link: /prebid/prebidjsReleases.html
+  title: Prebid.js Release Notes
+  link: /dev-docs/release-notes.html
   isHeader: 0
   isSectionHeader: 0
   sectionTitle:
@@ -561,6 +584,14 @@
 - sbSecId: 1
   title: First Party Data
   link: /features/firstPartyData.html
+  isHeader: 0
+  isSectionHeader: 0
+  sectionTitle:
+  subgroup: 8
+
+- sbSecId: 1
+  title: Activity Controls
+  link: /dev-docs/activity-controls.html
   isHeader: 0
   isSectionHeader: 0
   sectionTitle:
@@ -862,7 +893,7 @@
   sbCollapseId: ad-ops
 
 - sbSecId: 3
-  title: Overview
+  title: General
   link:
   isHeader: 1
   headerId: adopsoverview
@@ -1175,7 +1206,7 @@
   sbCollapseId: prebid-video
 
 - sbSecId: 4
-  title: Overview
+  title: General
   link:
   isHeader: 1
   headerId: vidoverview
@@ -1194,39 +1225,6 @@
 - sbSecId: 4
   title: Getting Started with Video for Prebid.js
   link: /prebid-video/video-getting-started.html
-  isHeader: 0
-  isSectionHeader: 0
-  sectionTitle:
-  subgroup: 0
-
-- sbSecId: 4
-  title: Getting Started with Long Form Video for Prebid.js
-  link: /prebid-video/video-long-form.html
-  isHeader: 0
-  isSectionHeader: 0
-  sectionTitle:
-  subgroup: 0
-
-
-- sbSecId: 4
-  title: Show Video Ads with Google Ad Manager
-  link: /dev-docs/show-video-with-a-dfp-video-tag.html
-  isHeader: 0
-  isSectionHeader: 0
-  sectionTitle:
-  subgroup: 0
-
-- sbSecId: 4
-  title: Show OTT Video Ads with Prebid
-  link: /dev-docs/show-long-form-video-with-gam.html
-  isHeader: 0
-  isSectionHeader: 0
-  sectionTitle:
-  subgroup: 0
-
-- sbSecId: 4
-  title: Outstream Video Ads
-  link: /dev-docs/show-outstream-video-ads.html
   isHeader: 0
   isSectionHeader: 0
   sectionTitle:
@@ -1265,114 +1263,6 @@
   sectionTitle:
   subgroup: 1
 
-- sbSecId: 4
-  title: Examples
-  link:
-  isHeader: 1
-  headerId: videxamples
-  isSectionHeader: 0
-  sectionTitle:
-  subgroup: 2
-
-- sbSecId: 4
-  title: "Instream"
-  link:
-  isHeader: 0
-  isSectionHeader: 0
-  isCatHeader: 1
-  sectionTitle:
-  subgroup: 2
-
-- sbSecId: 4
-  title: 'Prebid Video Module: VideoJS'
-  link: /examples/video/instream/videoModule/videojs/video-module-videojs.html
-  isHeader: 0
-  isSectionHeader: 0
-  sectionTitle:
-  subgroup: 2
-
-- sbSecId: 4
-  title: 'JW Player (Platform)'
-  link: /examples/video/instream/jwplayer/pb-ve-jwplayer-platform.html
-  isHeader: 0
-  isSectionHeader: 0
-  sectionTitle:
-  subgroup: 2
-
-- sbSecId: 4
-  title: 'JW Player (Self-Hosted)'
-  link: /examples/video/instream/jwplayer/pb-ve-jwplayer-hosted.html
-  isHeader: 0
-  isSectionHeader: 0
-  sectionTitle:
-  subgroup: 2
-
-- sbSecId: 4
-  title: 'VideoJS'
-  link: /examples/video/instream/videojs/pb-ve-videojs.html
-  isHeader: 0
-  isSectionHeader: 0
-  sectionTitle:
-  subgroup: 2
-
-- sbSecId: 4
-  title: "Outstream"
-  link:
-  isHeader: 0
-  isSectionHeader: 0
-  isCatHeader: 1
-  sectionTitle:
-  subgroup: 2
-
-- sbSecId: 4
-  title: 'Basic IMA'
-  link: /examples/video/outstream/basic-ima.html
-  isHeader: 0
-  isSectionHeader: 0
-  sectionTitle:
-  subgroup: 2
-
-- sbSecId: 4
-  title: 'Google Ad Manager'
-  link: /examples/video/outstream/pb-ve-outstream-dfp.html
-  isHeader: 0
-  isSectionHeader: 0
-  sectionTitle:
-  subgroup: 2
-
-- sbSecId: 4
-  title: 'No Server'
-  link: /examples/video/outstream/pb-ve-outstream-no-server.html
-  isHeader: 0
-  isSectionHeader: 0
-  sectionTitle:
-  subgroup: 2
-
-- sbSecId: 4
-  title: 'No Server (Specify Renderer)'
-  link: /examples/video/outstream/pb-ve-outstream-no-server-specify-renderer.html
-  isHeader: 0
-  isSectionHeader: 0
-  sectionTitle:
-  subgroup: 2
-
-- sbSecId: 4
-  title: "Long-Form (Ad Pods)"
-  link:
-  isHeader: 0
-  isSectionHeader: 0
-  isCatHeader: 1
-  sectionTitle:
-  subgroup: 2
-
-- sbSecId: 4
-  title: 'Freewheel'
-  link: /examples/video/long-form/pb-ve-lf-freewheel.html
-  isHeader: 0
-  isSectionHeader: 0
-  sectionTitle:
-  subgroup: 2
-
 #--------------Prebid Server--------------|
 
 - sbSecId: 5
@@ -1386,7 +1276,7 @@
   sbCollapseId: prebid-server
 
 - sbSecId: 5
-  title: Overview
+  title: General
   link:
   isHeader: 1
   headerId: serveroverview

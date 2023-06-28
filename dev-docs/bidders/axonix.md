@@ -10,10 +10,12 @@ gvl_id: 678
 sidebarType: 1
 ---
 
-### Prebid Server Note:
-The Axonix Bidding adapter requires setup before beginning. Please contact us at support.axonix@emodoinc.com.
+### Prebid Server Note
+
+The Axonix Bidding adapter requires setup before beginning. Please contact us at <support.axonix@emodoinc.com>.
 
 ### Bid Params
+
 {: .table .table-bordered .table-striped }
 | Name          | Scope    | Description                                     | Example                    | Type |
 |------------|-------|----------------------------------------------|-------------------------------------|------|
